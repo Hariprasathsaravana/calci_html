@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    
+    <div id="m1">
+        <div id="m2"> 0</div>
+      <div id="m3">
+        <div id="r1">
+            <div id="b1" onclick="get_input('7')"> 7 </div>
+            <div id="b2"onclick="get_input('8')">8</div>
+            <div id="b3"onclick="get_input('9')">9</div>
+            <div id="b4"onclick="get_input('/')">/</div>
+        </div>
+        <div id="r2">
+          <div id="b5"onclick="get_input('4')">4</div>
+          <div id="b6"onclick="get_input('5')">5</div>
+          <div id="b7"onclick="get_input('6')">6</div>
+          <div id="b8"onclick="get_input('*')">*</div>
+        </div>
+        <div id="r3">
+          <div id="b9"onclick="get_input('1')">1</div>
+          <div id="b10"onclick="get_input('2')">2</div>
+          <div id="b11"onclick="get_input('3')">3</div>
+          <div id="b12"onclick="get_input('-')">-</div>
+        </div>
+        <div id="r4">
+          <div id="b13"onclick="bks()">bks</div>
+          <div id="b14"onclick="get_input('0')">0</div>
+          <div id="b15"onclick="get_input('.')">.</div>
+          <div id="b16"onclick="get_input('+')">+</div>
+        </div>
+        <div id="r5">
+          <div id="b17"onclick="clean()">clr</div>
+          <div id="b18"onclick="submit()">=</div>
+          <!-- <div id="b13"onclick="bks()"></div> -->
+        </div> 
+        
+
+      </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
